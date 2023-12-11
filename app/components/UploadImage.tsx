@@ -36,7 +36,7 @@ export function UploadImage() {
                 index === 0 ? "rounded-s" : index === images.length - 1 && "rounded-e",
               )}
               onClick={clickHandler}>
-              {index}
+              {index + 1}
             </button>
           </>
         )}>
