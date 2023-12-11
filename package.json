@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-types": "pnpx supabase gen types typescript --project-id jvuhbmlrznxitrfqjbxl > app/interfaces/types_db.ts"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/supabase-js": "^2.39.0",
     "framer-motion": "^10.16.16",
     "next": "14.0.1",
     "react": "latest",
@@ -16,6 +19,7 @@
     "react-icons": "^4.12.0",
     "react-images-uploading": "^3.1.7",
     "react-responsive-carousel": "^3.2.23",
+    "slugify": "^1.6.6",
     "tailwind-merge": "^2.1.0",
     "zustand": "^4.4.7"
   },
