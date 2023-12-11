@@ -10,6 +10,7 @@ import ImageUploading from "react-images-uploading"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { IoAdd } from "react-icons/io5"
 import { UpdateDeleteButtons } from "./UpdateDeleteButtons"
+import { MaxNumberWarningToast } from "./MaxNumberWarningToast"
 
 export function UploadImage() {
   const [images, setImages] = useState<ImageListType>([])
@@ -76,6 +77,8 @@ export function UploadImage() {
           <section
             className={twMerge(isDragging && "fixed inset-0 z-[4999] !bg-[rgba(0,0,0,0.6)] max-w-[100%] image-upload")}
           />
+          {errors?.maxNumber && <MaxNumberWarningToast errors={errors?.maxNumber} />}
+
           <figure
             className="relative w-full tablet:aspect-video h-[500px] tablet:h-[175px] laptop:h-[200px] desktop:h-[250px]
           tablet:w-fit object-cover group">

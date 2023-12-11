@@ -1,5 +1,5 @@
 {
-  "name": "codesandbox-project",
+  "name": "acc2-react-images-uploading-slider",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^10.16.16",
     "next": "14.0.1",
     "react": "latest",
     "react-dom": "latest",
