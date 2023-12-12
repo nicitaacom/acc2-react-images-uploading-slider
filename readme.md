@@ -1,8 +1,6 @@
-# What inside? <br/> <sub> production url </sub>
+# What inside? <br/> <sub> https://acc2-react-images-uploading-slider.vercel.app/ </sub>
 
-![work in progress](https://i.imgur.com/2hHq62J.jpg)
-
-// TODO - Video in the future here
+[![acc2-react-images-uploading-slider](https://i.imgur.com/9SnPeoe.jpg)](https://youtu.be/4AL9uqG8Svk)
 <br/>
 <br/>
 <br/>
@@ -37,30 +35,17 @@ pnpm dev
 
 ## Step 2 - setup .env
 
-### 2.1 - github
+### In case you don't want to interact with images
 
-![Go to settings](https://i.imgur.com/vnG4aMh.png)
+You don't need to setup env
 
-### 2.2 - github
+### In case you want to interact with images
 
-![Go to developer settings](https://i.imgur.com/eodZM9p.png)
+Go to branch step4-interact-with-images (variant 1)<br/>
+![branch-step4-interact-with-images](https://i.imgur.com/haEYP4R.png)
 
-### 2.3 - github
+Go to branch step4-interact-with-images (variant 2)
 
-![OAuth Apps](https://i.imgur.com/yjeGtKv.png)
-
-### 2.4 - github
-
-![New OAuth App](https://i.imgur.com/QXuo0kE.png)
-
-### 2.5 - github
-
-![Auth url](https://i.imgur.com/MKmuYnA.png)
-
-### 2.6 - github
-
-![Copy env values](https://i.imgur.com/SIkWyeE.png)
-
-### 2.7 - github
-
-![Paste env values](https://i.imgur.com/yoevhr7.png)
+```bash
+git checkout step4-interact-with-images
+```
