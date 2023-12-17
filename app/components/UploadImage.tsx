@@ -65,7 +65,7 @@ export function UploadImage() {
 
   return (
     <ImageUploading multiple value={images} onChange={onChange} maxNumber={5} dataURLKey="data_url">
-      {({ imageList, onImageUpload, onImageUpdate, onImageRemove, errors, dragProps }) => (
+      {({ onImageUpload, onImageUpdate, onImageRemove, errors, dragProps }) => (
         <section
           className={twMerge(
             "relative max-w-[33%] tablet:min-h-[180px] laptop:min-h-[240px] desktop:min-h-[320px]",
