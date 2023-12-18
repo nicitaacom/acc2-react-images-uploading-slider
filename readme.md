@@ -41,11 +41,16 @@ You don't need to setup env
 
 ### In case you want to interact with images
 
-Go to branch step4-interact-with-images (variant 1)<br/>
+### Step 1 - go to branch step4-interact-with-images (variant 1)<br/>
+
 ![branch-step4-interact-with-images](https://i.imgur.com/haEYP4R.png)
 
-Go to branch step4-interact-with-images (variant 2)
+### Step 1 - Go to branch step4-interact-with-images (variant 2)
 
 ```bash
 git checkout step4-interact-with-images
 ```
+
+### Step 2 - watch this
+
+[![https://i.imgur.com/fFaLcYe.png](how-to-setup-env-for-supabase)](https://youtu.be/4AL9uqG8Svk?t=940)
